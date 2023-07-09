@@ -22,7 +22,7 @@ import {Elements} from "@stripe/react-stripe-js";
 import FormElements from "../../components/FormElements";
 import {useSearchParams} from "next/navigation";
 
-const stripePromise = loadStripe(process.env.STRIPE_CLIENT_KEY);
+const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLIC_KEY);
 
 export default function Home() {
     const [clientSecret, setClientSecret] = useState()
