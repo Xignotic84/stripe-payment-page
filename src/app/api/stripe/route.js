@@ -13,7 +13,7 @@ export async function GET(request) {
             amount: 42099,
             currency: 'eur',
             payment_method_types: ['card', 'ideal'],
-            receipt_email: 'xignotic84@gmail.com',
+            receipt_email: 'contact@xignotic.dev',
         })
     } catch (err) {
         console.error(err)
